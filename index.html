@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rath Traders Pvt. Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- Header Section -->
+   <header>
+    <div class="container">
+        <h1>
+        <img src="images/Rath_image.jpg" alt="Logo" height="70" width="70">
+       Rath Traders Pvt. Ltd
+            
+        </h1>
+        <!-- Logo -->
+        
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+
+        <section class="product-list">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/door.jpg" alt="door">
+                        <h3>Wooden Door</h3>
+                        <p class="price">Starting Rs.4500 to ...</p>
+                        <button class="view-product-btn" onclick="viewProduct()">View Product</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/locks.jpg" alt="door">
+                        <h3>Locks</h3>
+                        <p class="price">Rs.450 ~</p>
+                        <button class="view-product-btn" onclick="viewProduct()">View Product</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/screw&kila.jpg" alt="door">
+                        <h3>Screws</h3>
+                        <p class="price">Rs.100 ~</p>
+                        <button class="view-product-btn" onclick="viewProduct()">View Product</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/door_image.jpg" alt="door">
+                        <h3>Wooden Door</h3>
+                        <p class="price">Rs.4500 ~</p>
+                        <button class="view-product-btn" onclick="viewProduct()">View Product</button>
+                    </div>
+                
+                    <div class="product-card">
+                        <img src="images/solar.jpg" alt="Solar">
+                        <h3>Suprem Solar</h3>
+                        <p class="price">Rs.55000 ~</p>
+                        <a href="product.html" class="cta-link">
+                            <button class="view-product-btn" onclick="viewProduct()">View Product</button>
+                        </a>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/kitchen_chimney.jpg" alt="Chimney">
+                        <h3>Kitchen Chimney</h3>
+                        <p class="price">Rs.20000 ~</p>
+                        <button class="view-product-btn" onclick="viewProduct()">View Product</button>
+                    </div>
+                 
+                </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer Section -->
+
+<div>&nbsp;</div>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Rath Traders Pvt. Ltd. All Rights Reserved.</p>
+        <p>Follow us on social media: 
+            <a href="https://facebook.com">Facebook</a> | 
+            <a href="https://instagram.com">Instagram</a> | 
+            <a href="https://twitter.com">Twitter</a>
+        </p>
+    </div>
+</footer>
+
+    <script>
+        function viewProduct() {
+            window.location.href = 'product.html';  // Redirect to product detail page
+        }
+    </script>
+</body>
+</html>
